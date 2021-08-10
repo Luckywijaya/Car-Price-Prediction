@@ -26,3 +26,4 @@ Make a regression predictive model to predict the car price.
 • Hyperparameter tuning<br>
 • Select the best model<br>
 <br><br>
+# **Model Evaluation**<br>
