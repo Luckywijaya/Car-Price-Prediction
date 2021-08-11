@@ -40,7 +40,10 @@ Make a regression predictive model to predict the car price.
 <br><br>
 ![image](https://user-images.githubusercontent.com/80570935/129027678-c2e7e7c6-bc9c-40eb-9eec-8f2eee109d59.png)
 There are outliers in `wheelbase`, `with`, `enginesize`, `stroke`, `compressionration`, `hp`, `peakrpm`, `highwaympg`, and `price`. <br>
-Overall the features has normal distribution.
+Overall the features has normal distribution. 
+<br><br>
+![image](https://user-images.githubusercontent.com/80570935/129028368-b4365d95-c507-43fe-a578-f22e97a776aa.png)
+Based on `fuel`, `door`, `body`, `wheel`, `engine`, `cylinder` features, majority is a city cars. <br>
 
 # **Data Processing**<br>
 • Check missing & duplicate values<br>
