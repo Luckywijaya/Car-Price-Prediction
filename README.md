@@ -56,10 +56,20 @@ Based on `fuel`, `door`, `body`, `wheel`, `engine`, `cylinder` features, majorit
 # **Modeling**<br>
 • Split features & target<br>
 • Split data into data train & data test<br>
-• Train model with 4 different algorithm such as Linear Regression, Random Forest, Decision Tree<br>
+• Train model with 4 different algorithm such as Linear Regression, Random Forest, Decision Tree, and SVR<br>
 • Evaluate model with MAE Score, RMSE Score & R2 Score<br>
 • Validate model with train and test accuracy <br>
 • Hyperparameter tuning<br>
 • Select the best model<br>
 <br><br>
 # **Model Evaluation**<br>
+| Score | Linear Regression | Decision Tree | Random Forest | SVR |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| MAE | 0.06 | 0.05 | 0.03 | 0.07 |
+| RMSE | 0.09 | 0.07 | 0.05 | 0.09 |
+| R2 | 0.80 | 0.88 | 0.94 | 0.82 | 
+| Train Acc | 0.93 | 0.99 | 0.98 | 0.87 |
+| Test Acc | 0.80 | 0.87 | 0.94 | 0.82 |
+
+<br> 
+Based on the model evaluation, Random Forest algorithm has the best result.
