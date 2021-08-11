@@ -72,4 +72,6 @@ Based on `fuel`, `door`, `body`, `wheel`, `engine`, `cylinder` features, majorit
 | Test Acc | 0.80 | 0.87 | 0.94 | 0.82 |
 
 <br> 
-Based on the model evaluation, Random Forest algorithm has the best result.
+Based on predictive modeling, Random Forest algorithm has the best score compared to the other algorithms. <br> 
+Random Forest make a prediction with the lowest error, MAE Score 0.03, RMSE Score 0.05, and the highest R2 Score 0.95. <br> 
+The algorithm is fit based on the train & test accuracy score (0.98 - 0.94). <br><br>
