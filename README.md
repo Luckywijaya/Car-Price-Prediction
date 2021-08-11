@@ -8,6 +8,39 @@ Make a regression predictive model to predict the car price.
 • Built a model to predict whether the car price<br>
 <br>
 # Exploratory Data Analysis
+| Variable | Type | Definition |
+| ----------- | ----------- | ----------- |
+| id | Numeric | Unique car ID 
+| symbol | Categorical | Assigned insurance risk rating (+3 is risky, -3 is safe)
+| name | Categorical | Name of car company |
+| fuel | Categorical | Car fuel type |
+| aspiration | Categorical | Aspiration used in a car |
+| door | Categorical | Number of doors |
+| body | Categorical | Body of car |
+| wheel | Categorical | Type of drive wheel |
+| engineloc | Categorical | Location of car engine |
+| wheelbase | Numeric | Wheelbase of car |
+| length | Numeric | Length of car |
+| width | Numeric | Width of car |
+| height | Numeric | Height of car |
+| weight | Numeric | Weight of a car without occupants or baggage |
+| engine | Categorical | Type of engine |
+| cylinder | Categorical | Cylinder number placed in the car |
+| enginesize | Numeric | Size of car |
+| fuelsystem | Categorical | Fuel system of car |
+| boreratio | Numeric | Boreratio of car |
+| stroke | Numeric | Stroke or volume inside the engine |
+| compressionratio | Numeric | Compression ratio of car |
+| hp | Numeric | Horsepower |
+| peakrpm | Numeric | Car peak rpm |
+| citympg | Numeric | Mileage in city |
+| highwaympg | Numeric | Mileage on highway |
+| price | Numeric | Price of car |
+
+<br><br>
+![image](https://user-images.githubusercontent.com/80570935/129027678-c2e7e7c6-bc9c-40eb-9eec-8f2eee109d59.png)
+There are outliers in `wheelbase`, `with`, `enginesize`, `stroke`, `compressionration`, `hp`, `peakrpm`, `highwaympg`, and `price`. <br>
+Overall the features has normal distribution.
 
 # **Data Processing**<br>
 • Check missing & duplicate values<br>
