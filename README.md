@@ -1,5 +1,6 @@
 # Car-Price-Prediction
 Make a regression predictive model to predict the car price.
+Data source : https://www.kaggle.com/hellbuoy/car-price-prediction?select=CarPrice_Assignment.csv
 
 # Project Overview
 
